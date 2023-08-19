@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="main">
+        <div id="menu">
+            <ul id="nav">
+                <li><a href=""><i class="ti-facebook"></i></a></li>
+                <li><a href=""><i class="ti-instagram"></i></a></i></li>
+                <li><a href=""><i class="ti-trello"></i></a></li>
+                <li><a href=""><i class="ti-flickr"></i></a></li>
+                <li><a href=""><i class="ti-twitter"></i></a></li>
+                <li><a href=""><i class="ti-linkedin"></i></a></li>
+            </ul>
+
+            <div class="menu-search">
+                <i class="ti-search"></i>
+            </div>
+        </div>
+
+        <div id="header">
+            <div class="header-heading">
+                <h1 class="heading--name"><b>JANE BLOGLIFE</b></h1>
+                <h6 class="heading-text">Welcome to the blog of <span>Jane's world</span></h6>
+            </div>
+        </div>
+
+        <div id="slider">
+            <img src="./assets/img/slider/slider1.jpg" alt="" class="slider-img">
+            <div class="slider-heading">
+                <h1 class="slider_heading--name">Jane's</h1>
+                <h1 class="slider_heading--text">
+                    <b class="text">FASHION BLOG</b>
+                </h1>
+                <div class="slider-btn">
+                    <h6>
+                        <button class="sub-btn js-sub-btn" onclick="document.getElementById('subscribe').style.display = 'block'">SUBSCRIBE</button>
+                    </h6>
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+            <div class="content-left">
+                <div class="content-section">
+                    <h3 class="content-heading">TITLE HEADING</h3>
+                    <h5 class="content-sub-heading">Title description, <span>May 2, 2016</span></h5>
+                    <img src="./assets/img/content/title/content1.jpg" alt="" class="content-img">
+                    <p class="heading-text"><strong>More Hats!</strong> I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    <p class="heading-sub-text">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <p class="btn">
+                        <button class="content-like" id="demo-1" onclick="likeFunction(this)"><i class="ti-thumb-up"></i> Like</button>
+                        <button class="content-replies" id="myBtn" onclick="myFunction('comment-1')">Replies<span>1</span></button>
+                    </p>
+
+                    <div id="comment-1" class="content-comment">
+                        <hr>
+                        <div class="comment-cmt">
+                            <img src="./assets/img/content/comment/comment1.jpg" alt="" class="comment-img">
+                            <div class="comment-sub-comment">
+                                <h4 class="comment-heading">George <span>May 3, 2015, 6:32PM</span></h4>
+                                <p class="comment-text">Great blog post! Following</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="content-section">
+                    <h3 class="content-heading">TITLE HEADING</h3>
+                    <h5 class="content-sub-heading">Title description, <span>May 2, 2016</span></h5>
+                    <img src="./assets/img/content/title/content2.jpg" alt="" class="content-img">
+                    <p class="heading-text"><strong>Hats!</strong> The trend this summer is hats for men!</p>
+                    <p class="heading-sub-text">Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    <p class="btn">
+                        <button class="content-like" id="demo-2" onclick="likeFunction(this)"><i class="ti-thumb-up"></i> Like</button>
+                        <button class="content-replies" id="myBtn" onclick="myFunction('comment-2')">Replies <span>2</span></button>
+                    </p>
+
+                    <div id="comment-2" class="content-comment">
+                        <hr>
+                        <div class="comment-cmt">
+                            <img src="./assets/img/content/comment/comment2.jpg" alt="" class="comment-img">
+                            <div class="comment-sub-comment">
+                                <h4 class="comment-heading">Amber <span>April 26, 2015, 10:52 PM</span></h4>
+                                <p class="comment-text">Love your blog page! Simply the best! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+
+                        <div class="comment-cmt">
+                            <img src="./assets/img/content/comment/comment3.jpg" alt="" class="comment-img">
+                            <div class="comment-sub-comment">
+                                <h4 class="comment-heading">Angie <span>April 23, 2015, 9:12 PM</span></h4>
+                                <p class="comment-text">Love hats!!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-section">
+                    <h3 class="content-heading">TITLE HEADING</h3>
+                    <h5 class="content-sub-heading">Title description, <span>May 2, 2016</span></h5>
+                    <img src="./assets/img/content/title/content3.jpg" alt="" class="content-img">
+                    <p class="heading-text"><strong>Dont miss!</strong> The runway in New York City this weekend is gonna be legendary!</p>
+                    <p class="heading-sub-text">Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    <p class="btn">
+                        <button class="content-like" id="demo-3" onclick="likeFunction(this)"><i class="ti-thumb-up"></i> Like</button>
+                        <button class="content-replies" id="myBtn" onclick="myFunction('comment-3')">Replies <span>3</span></button>
+                    </p>
+
+                    <div id="comment-3" class="content-comment">
+                        <hr>
+                        <div class="comment-cmt">
+                            <img src="./assets/img/content/comment/comment4.jpg" alt="" class="comment-img">
+                            <div class="comment-sub-comment">
+                                <h4 class="comment-heading">Jane <span>April 10, 2015, 7:22 PM</span></h4>
+                                <p class="comment-text">That was a great runway show! Thanks for everything.</p>
+                            </div>
+                        </div>
+
+                        <div class="comment-cmt">
+                            <img src="./assets/img/content/comment/comment5.jpg" alt="" class="comment-img">
+                            <div class="comment-sub-comment">
+                                <h4 class="comment-heading">John <span>April 8, 2015, 10:32 PM</span></h4>
+                                <p class="comment-text">Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                            </div>
+                        </div>
+
+                        <div class="comment-cmt">
+                            <img src="./assets/img/content/comment/comment6.jpg" alt="" class="comment-img">
+                            <div class="comment-sub-comment">
+                                <h4 class="comment-heading">Anja <span>April 7, 2015, 9:12 PM</span></h4>
+                                <p class="comment-text">Cant wait for the runway to start!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-right">
+                <div class="content-name">
+                    <img src="./assets/img/content/title/content4.jpg" alt="" class="name-img">
+                    <div class="name-about">
+                        <h4 class="my-name">My Name</h4>
+                        <p class="my-name-text">Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="content-post">
+                    <div class="post-heading">
+                        <h4 class="post-heading--name">Popular Posts</h4>
+                    </div>
+                    <div class="post-sub-heading">
+                        <img src="./assets/img/content/post/post1.jpg" alt="" class="post-img">
+                        <div class="">
+                            <p class="post-name">Denim</p>
+                            <p class="post-text">Sed mattis nunc</p>
+                        </div>
+                    </div>
+
+                    <div class="post-sub-heading">
+                        <img src="./assets/img/content/post/post2.jpg" alt="" class="post-img">
+                        <div class="">
+                            <p class="post-name">Denim</p>
+                            <p class="post-text">Sed mattis nunc</p>
+                        </div>
+                    </div>
+
+                    <div class="post-sub-heading">
+                        <img src="./assets/img/content/post/post1.jpg" alt="" class="post-img">
+                        <div class="">
+                            <p class="post-name">Denim</p>
+                            <p class="post-text">Sed mattis nunc</p>
+                        </div>
+                    </div>
+
+                    <div class="post-sub-heading">
+                        <img src="./assets/img/content/post/post2.jpg" alt="" class="post-img">
+                        <div class="">
+                            <p class="post-name">Denim</p>
+                            <p class="post-text">Sed mattis nunc</p>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="content-advertise">
+                    <div class="advertise-heading">
+                        <h4 class="advertise-heading--name">Advertise</h4>
+                    </div>
+
+                    <div class="advertise-sub-heading">
+                        <div class="advertise-text">
+                            <p class="advertise-name">Your AD Here</p>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="content-tags">
+                    <div class="tags-heading">
+                        <h4 class="tags-heading--name">Tags</h4>
+                    </div>
+
+                    <div class="tags-name">
+                        <div class="tags-text">
+                            <span class="name">
+                                Fashion
+                            </span>
+                            <span class="text--name">New York</span>
+                            <span class="text--name">London</span>
+                            <span class="text--name">Hats</span>
+                            <span class="text--name">Norway</span>
+                            <span class="text--name">Sweaters</span>
+                            <span class="text--name">Ideas</span>
+                            <span class="text--name">Deals</span>
+                            <span class="text--name">Accessories</span>
+                            <span class="text--name">News</span>
+                            <span class="text--name">Clothing</span>
+                            <span class="text--name">Shopping</span>
+                            <span class="text--name">Jeans</span>
+                            <span class="text--name">Trends</span>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="content-inspiration">
+                    <div class="inspiration-heading">
+                        <h4 class="inspiration-heading--name">Inspiration</h4>
+                    </div>
+
+                    <div class="inspiration-layout">
+                        <div class="inspiration-left">
+                            <img src="./assets/img/content/inspiration/inspiration1.jpg" alt="" class="inspiration-img">
+                            <img src="./assets/img/content/inspiration/inspiration2.jpg" alt="" class="inspiration-img">
+                        </div>
+
+                        <div class="inspiration-right">
+                            <img src="./assets/img/content/inspiration/inspiration2.jpg" alt="" class="inspiration-img">
+                            <img src="./assets/img/content/inspiration/inspiration1.jpg" alt="" class="inspiration-img">
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="content-icon">
+                    <div class="icon-heading">
+                        <h4 class="icon-heading--name">Follow Me</h4>
+                    </div>
+
+                    <div class="icon-sub-heading">
+                        <i class="icon ti-facebook"></i>
+                        <i class="icon ti-instagram"></i>
+                        <i class="icon ti-trello"></i>
+                        <i class="icon ti-flickr"></i>
+                        <i class="icon ti-twitter"></i>
+                        <i class="icon ti-linkedin"></i>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="content-subscribe">
+                    <div class="subscribe-heading">
+                        <h4 class="subscribe-heading--name">Subscribe</h4>
+                    </div>
+
+                    <div class="subscribe-sub-heading">
+                        <div class="subscribe-text">Enter your e-mail below and get notified on the latest blog posts.</div>
+                        <div class="sub-text">
+                            <input type="text" placeholder="Email e-mail" class="sub-email">
+                        </div>
+                        <div class="sub-text">
+                            <button class="subscribe-btn js-sub-btn" onclick="document.getElementById('subscribe').style.display = 'block'">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="footer-head">
+                <div class="footer-btn">
+                    <a href="#">
+                        <button class="ft-btn-name">
+                            <i class="up ti-arrow-up"></i>
+                            To the top
+                        </button>
+                    </a>
+                </div>
+    
+                <div class="footer-text">
+                    <p>Powered by <a href="">w3.css</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal js-modal" id="subscribe">
+        <div class="modal-body">
+
+            <div class="modal-container">
+                <div class="modal-heading">
+                    <h2 class="modal-name">SUBSCRIBE</h2>
+    
+                </div>
+                <div class="modal-close" onclick="document.getElementById('subscribe').style.display = 'none'">
+                    <i class="ti-close"></i>
+                </div>
+    
+                <div class="modal-text">
+                    <p class="text">Join my mailing list to receive updates on the latest blog posts and other things.</p>
+                </div>
+    
+                <div class="modal-input">
+                    <input type="text" class="input-border" placeholder="Enter e-mail" required>
+                </div>
+    
+                <div class="modal-btn">
+                    <button class="md-btn js-modal-close">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // const subBtns = document.querySelectorAll('.js-sub-btn')
+        // const modal = document.querySelector('.js-modal')
+        // const modalCloses = document.querySelectorAll('.js-modal-close')
+
+        // function showSubscribe() {
+        //     modal.classList.add('open')
+        // }
+
+        // function hideSubscribe() {
+        //     modal.classList.remove('open')
+        // }
+
+        // for(const subBtn of subBtns) {
+        //     subBtn.addEventListener('click', showSubscribe)
+        // }
+
+        // for(const modalClose of modalCloses) {
+        //     modalClose.addEventListener('click', hideSubscribe)
+        // }
+    </script>
+
+    <script>
+        document.getElementById("myBtn").click();
+        function myFunction(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("show") == -1) {
+                x.className += " show";
+            } else { 
+                x.className = x.className.replace(" show", "");
+            }
+        }
+
+
+        function likeFunction(x) {
+            x.style.fontWeight = "bold";
+            x.innerHTML = "&#10003; Liked";
+        }
+
+        function showSubscribe(id) {
+            document.getElementById()
+        }
+
+    </script>
+</body>
+</html>
